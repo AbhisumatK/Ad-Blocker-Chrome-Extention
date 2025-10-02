@@ -1,0 +1,16 @@
+{
+    "name" : "AK AdBlocker",
+    "version": "1.0.0",
+    "description": "A simple ad blocker extension. Blocks ads from doubleclick.net and googleadservices.com.",
+    "manifest_version": 3,
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "rules.json"
+        }]
+    }
+}
